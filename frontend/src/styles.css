@@ -1,0 +1,105 @@
+
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa; /* Light pastel grey */
+    color: #333;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+}
+
+.app {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    color: #ff8c94; /* Light coral */
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.comment-box {
+    background-color: #fff3e4; /* Pastel peach */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.comment-box h2 {
+    color: #666;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.comment-box input, .comment-box textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+.comment-box input:focus, .comment-box textarea:focus {
+    border-color: #ff8c94; /* Light coral */
+    box-shadow: 0 0 5px rgba(255, 140, 148, 0.5); /* Light coral shadow */
+    outline: none;
+}
+
+.comment-box textarea {
+    height: 60px;
+}
+
+.comment-box button {
+    padding: 10px 20px;
+    background-color: #ffb6c1; /* Light pastel pink */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.comment-box button:hover {
+    background-color: #ff69b4; /* Vibrant pink */
+}
+
+.comment-slider {
+    margin-top: 20px;
+}
+
+.slider-container {
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #e6e6fa; /* Light pastel lavender */
+}
+
+.card {
+    flex: 0 0 auto;
+    width: 200px;
+    background-color: #f5f5dc; /* Light pastel beige */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.card p {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.card h4 {
+    font-size: 12px;
+    color: #666;
+    margin: 0;
+}
